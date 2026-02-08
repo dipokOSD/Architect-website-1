@@ -1,6 +1,338 @@
-.box{
-    width: 200px;
-    height: 100px;
-    border: 2px solid red;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* sheared style */
+.display-flex{
+    display: flex;
+
+}
+
+.navber,
+.banner,
+.team,
+.features-will-enjoy,
+.some-facts,
+.sponspore,
+.footer-styles{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.text-primary{
+    color: #FF900E;
+}
+
+/* dark-1 */
+
+.text-gray{
+    color:#424242;
+}
+
+/* dark-2 */
+
+.text-light-gray{
+    color: #727272;
+
+}
+
+.bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.btn-primary{
+    background-color:#FF900E ;
+    color: #FFFFFF;
+    padding:20px 25px ;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.section-taitle{
+    max-width: 537px;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+#Quick-list{
+    font-weight: 500;
+}
+
+/* nav-style */
+
+.navber{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand{
+    font-size:2.8rem ;
+    font-weight: bold;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;  
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500px;
+}
+/* banner releted style */
+
+.banner-contant{
+    max-width:850px ;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom:50px ;
+}
+
+.banner-titel{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 21px;
+}
+
+.banner-desceition{
+    margin-bottom: 32px;
+}
+
+.banner-image{
+    width: 100%;
+}
+/* team related styles */
+
+.team {
+    margin-top: 85px;
+    gap: 73px;
+    align-items: center;
+    
+    
+}
+
+.team-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    
+}
+
+.features{
+    max-width: 537px;   
+}
+ 
+.taitle-discription{
+    margin-bottom: 41px;
+}
+
+.features h3{
+    margin: 14px;
+}
+
+/* features will enjoy related styles */
+
+.features-will-enjoy{
+    margin-top: 136px;
+    gap: 133px;
+}
+
+#left-margin{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    margin-bottom: 24px;
+}
+
+.card-discription{
+    margin-bottom: 30px;
+    max-width: 586px;
+}
+
+.card-taitle{
+    max-width: 586px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+    padding: 30px;
     margin-bottom: 20px;
 }
+
+.card-taitle h4{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px;
+}
+#Experience-button{
+    padding: 44px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-left: -100px;
+    margin-top: -200px;
+}
+
+.Experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.display{
+    display:none;
+}
+
+/* some facts related styles */
+
+.some-facts{
+    margin-top: 144px;
+}
+
+.facts-taitle{
+    margin-bottom: 24px;
+}
+
+.facts-discription{
+    max-width: 542px;
+    margin-top: 24px;
+}
+
+.facts-card-containar{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* justify-content: space-around;  */
+    margin-left: 50px;
+    gap: 124px; 
+    margin-top: 100px;
+
+}
+
+.facts-card{
+    width: 241px;
+    height: 241px;
+    border: #FF900E 2px solid;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.facts-card img{
+      /* margin-bottom: 0px;  */
+}
+
+.facts-number{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 10px; 
+    margin-bottom: 5px;
+}
+
+.facts-taitle{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+/* sponspore related styles */
+
+.sponspore{
+    margin-top: 180px;
+}
+
+.sponspors-taitle{
+    max-width: 542px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sponspors-taitle h3{
+    margin-bottom: 24px;
+    color: #FF900E;
+}
+
+.sponspore-discription{
+    margin-bottom: 48px;
+}
+
+.sponspors-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 155px;
+    
+}
+
+.sponspors-img img{
+    filter: grayscale(100%);
+    
+}
+
+/* footer related styles */
+
+.footer-styles{
+    margin-top: 130px;
+    margin-bottom:50px;
+    padding: 38px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.footer-styles p{
+    font-size: 1.25rem;
+}
+
+/* responsive-design for Mubail Phone  */
+@media screen and (max-width:576px) {
+    .navber,
+    .team,
+    .features-will-enjoy{
+        flex-direction:column;
+    }
+
+    .team-image,
+    .facts-card-containar,
+    .sponspors-img{
+        grid-template-columns: repeat(1,1fr);
+        gap: 50px;
+    }
+    .Architects-sister img{
+        max-width: 100%;
+    }
+    #Experience-button{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    #Experience-button{
+        padding: 10px;
+    }
+    .Experience-year{
+        font-size: 2rem;
+    }
+    
+    .sponspore{
+        margin-top: 100px;
+    }
+
+    .sponspors-img{
+        gap: 80px;
+    }
+
+    .sponspors-img img{
+        margin:0 auto;
+        gap: 100px;
+    }
+   
+
+
+}
+    
+    
+
+  
+   
